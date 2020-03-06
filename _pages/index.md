@@ -16,7 +16,7 @@ End of December 2019 first cases of a new pneumonia was reported in Wuhan, Hubei
 
 Mid of January 2020 a group of scientists (Ensheng Dong, Hongru Du, Lauren Gardner) from Center for Systems Science and Engineering (CSSE) at John Hopkins University (JHU) published an [interactive web-based dashboard to track COVID-19](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6). The raw data can be downloaded from [CSSEGISandData GitHub Repository](https://github.com/CSSEGISandData/COVID-19). The data is collected from different data sources: [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports), [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html), [ECDC](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases), [NHC](http://www.nhc.gov.cn/xcs/yqtb/list_gzbd.shtml) and [DXY](https://ncov.dxy.cn/ncovh5/view/pneumonia?scene=2&clicktime=1579582238&enterid=1579582238&from=singlemessage&isappinstalled=0)
 
-As the virus spreads all over the world, the data from the mentioned sources are no longer sufficient. We need more detailed data in real-time.
+As the virus spreads all over the world, the data from the mentioned sources are no longer sufficient. We need more detailed data in real-time. Please check our [Data Requirements](/data_requirements/)
 
 **The goal of this project is to contain the disease by finding insights from high-quality data, which we want to gather from different sources**
 

@@ -5,7 +5,7 @@ image: "https://res.cloudinary.com/jenslaufer/image/upload/c_scale,q_65,w_800/v1
 image_caption: "Photo by Pankaj Patel on Unsplash"
 author_profile: false
 layout: single
-permalink: /data_requirements.html
+permalink: /data_requirements/
 ---
 
 When the virus started 8 weeks ago the numbers increased slowly. Real-Time data was not so important at that time. However today numbers change hourly.
