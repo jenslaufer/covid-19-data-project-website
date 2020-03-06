@@ -1,0 +1,21 @@
+{% if site.footer_scripts %} {% for script in site.footer_scripts %} {% if
+script contains "://" %} {% capture script_path %}{{ script }}{% endcapture %}
+{% else %} {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+{% endif %}
+<script src="{{ script_path }}"></script>
+{% endfor %} {% else %}
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% endif %} {% include analytics.html %} {% include
+/comments-providers/scripts.html %}
+
+<script async>
+  (function(s, u, m, o, j, v) {
+    j = u.createElement(m);
+    v = u.getElementsByTagName(m)[0];
+    j.async = 1;
+    j.src = o;
+    j.dataset.sumoSiteId =
+      "69bce5c484020e731cf1740def8cceb2b6163635d7c8e6d3c661748707b16b2c";
+    v.parentNode.insertBefore(j, v);
+  })(window, document, "script", "//load.sumo.com/");
+</script>
